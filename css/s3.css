@@ -1,0 +1,56 @@
+.section3 {
+    padding: 2rem;
+}
+
+.section3__title {
+    font-size: 1rem;
+    color: var(--color-orange);
+    font-weight: 300;
+    text-align: center;
+}
+
+.section3__text {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#div-cards-section3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
+    place-items: center;
+}
+
+.bg-cards-section3 {
+    display: grid;
+    place-items: center;
+    background-color: var(--color-cards);
+    padding: 2rem;
+}
+
+.img-cards-section3 {
+    width: 128px;
+    height: 128px;
+}
+
+.title-card {
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.text-card {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.price-card {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0;
+    color: var(--color-orange);
+}
