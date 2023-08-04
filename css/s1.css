@@ -8,7 +8,7 @@
 }
 
 .section1__title {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     margin-bottom: 0;
     color: #ff702a;
     letter-spacing: .25rem;
@@ -35,4 +35,54 @@
     height: 100%;
     object-fit: contain;
     margin: 2rem 0;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .img-home {
+        width: 350px;
+        height: 350px;
+    }
+
+    .section1 {
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media screen and (min-width: 1023px){
+    .section1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5rem 0;
+    }
+
+    .section1__title {
+        font-size: 3rem;
+        margin-bottom: 0;
+        color: #ff702a;
+        letter-spacing: .25rem;
+        font-weight: 400;
+    }
+
+    #div-text-section1 {
+        place-items: flex-start;
+    }
+
+    #text-home-left {
+        text-align: left;
+    }
+
+    .img-home {
+        width: 35%;
+        height: 35%;
+        object-fit: contain;
+        margin: 0;
+    }
+
+    .bg-orange {
+        font-size: 1rem;
+    }
 }

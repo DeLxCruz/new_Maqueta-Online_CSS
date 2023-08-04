@@ -11,6 +11,9 @@
 body {
     background-color: var(--color-body);
     font-family: var(--fuente);
+}
+
+main {
     padding: 0 1rem;
 }
 

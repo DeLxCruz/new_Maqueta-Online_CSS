@@ -65,3 +65,45 @@
     background-color: var(--color-cards);
     padding: 2rem 0;
 }
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (min-width: 1023px) {
+    .section4 {
+        padding: 5rem 2rem;
+    }
+
+    .section4__title {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    #div-cards-section4 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .section4-1 {
+        padding: 6rem;
+    }
+
+    .section4-1_title {
+        font-size: 3rem;
+        text-align: center;
+        width: 600px;
+    }
+
+    .card-section4-1 {
+        display: grid;
+        place-items: center;
+        background-color: var(--color-cards);
+        padding: 4rem;
+    }
+
+    .title-card4 {
+        width: 250px;
+    }
+}
